@@ -27,7 +27,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '20.x'
+          node-version: '22.x'
       - name: Install latest npm
         run: sudo npm install -g npm@latest
       - name: Installing Dependencies
@@ -53,7 +53,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '20.x'
+          node-version: '22.x'
       - name: Install latest npm
         run: sudo npm install -g npm@latest
       - name: Installing Dependencies

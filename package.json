@@ -43,7 +43,9 @@
         {
           "target": "deb",
           "arch": [
-            "arm64"
+            "armv7l",
+            "arm64",
+            "x64"
           ]
         }
       ],
@@ -75,13 +77,13 @@
     "@angular/animations": "~13.3.9",
     "@angular/cdk": "~13.3.0",
     "@angular/common": "~13.3.11",
-    "@angular/compiler": "~13.3.11",
+    "@angular/compiler": "~13.0.3",
     "@angular/core": "~13.3.11",
     "@angular/forms": "~13.3.11",
-    "@angular/localize": "~13.3.11",
+    "@angular/localize": "~13.0.3",
     "@angular/material": "~13.3.8",
     "@angular/platform-browser": "~13.3.11",
-    "@angular/platform-browser-dynamic": "~13.3.8",
+    "@angular/platform-browser-dynamic": "~18.2.8",
     "@angular/router": "~13.3.11",
     "@fortawesome/angular-fontawesome": "~0.10.2",
     "@fortawesome/fontawesome-svg-core": "~1.2.36",
@@ -89,7 +91,7 @@
     "ajv": "~8.17.1",
     "angular-svg-round-progressbar": "~8.0.0",
     "bonjour": "~3.5.0",
-    "compare-versions": "~6.1.0",
+    "compare-versions": "~6.1.1",
     "electron-store": "~10.0.0",
     "got-cjs": "~12.5.4",
     "lodash-es": "~4.17.21",
@@ -105,7 +107,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.3.9",
     "@angular/cli": "~15.2.7",
-    "@angular/compiler-cli": "~13.3.11",
+    "@angular/compiler-cli": "~13.0.2",
     "@angular/language-service": "~18.2.8",
     "@types/bonjour": "~3.5.13",
     "@types/got": "~9.6.12",
